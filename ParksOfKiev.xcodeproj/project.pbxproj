@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B9EFDB1F14039500EDD520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9EFDA1F14039500EDD520 /* main.m */; };
+		84B9EFDE1F14039500EDD520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9EFDD1F14039500EDD520 /* AppDelegate.m */; };
+		84B9EFE11F14039500EDD520 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9EFE01F14039500EDD520 /* HomePageViewController.m */; };
+		84B9EFE41F14039500EDD520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9EFE21F14039500EDD520 /* Main.storyboard */; };
+		84B9EFE91F14039500EDD520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9EFE71F14039500EDD520 /* LaunchScreen.storyboard */; };
+		84B9EFF41F14039500EDD520 /* ParksOfKievTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9EFF31F14039500EDD520 /* ParksOfKievTests.m */; };
+		84B9EFFF1F14039500EDD520 /* ParksOfKievUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9EFFE1F14039500EDD520 /* ParksOfKievUITests.m */; };
+		84B9F00E1F14110C00EDD520 /* ParksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F00D1F14110C00EDD520 /* ParksViewController.m */; };
+		84B9F0101F14194200EDD520 /* Parks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F00F1F14194200EDD520 /* Parks.plist */; };
+		84B9F0131F141DB400EDD520 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0121F141DB400EDD520 /* CardView.m */; };
+		84B9F0151F141DED00EDD520 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0141F141DED00EDD520 /* CardView.xib */; };
+		84B9F0171F17E24200EDD520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0161F17E24200EDD520 /* Assets.xcassets */; };
+		A5C9AF06EC4BEB97A02865EF /* Pods_ParksOfKiev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E385B55B683304822013A248 /* Pods_ParksOfKiev.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B9EFF01F14039500EDD520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B9EFCE1F14039500EDD520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B9EFD51F14039500EDD520;
+			remoteInfo = ParksOfKiev;
+		};
+		84B9EFFB1F14039500EDD520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B9EFCE1F14039500EDD520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B9EFD51F14039500EDD520;
+			remoteInfo = ParksOfKiev;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B9EFD61F14039500EDD520 /* ParksOfKiev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParksOfKiev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9EFDA1F14039500EDD520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B9EFDC1F14039500EDD520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B9EFDD1F14039500EDD520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B9EFDF1F14039500EDD520 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		84B9EFE01F14039500EDD520 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		84B9EFE31F14039500EDD520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B9EFE81F14039500EDD520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B9EFEA1F14039500EDD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9EFEF1F14039500EDD520 /* ParksOfKievTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParksOfKievTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9EFF31F14039500EDD520 /* ParksOfKievTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParksOfKievTests.m; sourceTree = "<group>"; };
+		84B9EFF51F14039500EDD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9EFFA1F14039500EDD520 /* ParksOfKievUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParksOfKievUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9EFFE1F14039500EDD520 /* ParksOfKievUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParksOfKievUITests.m; sourceTree = "<group>"; };
+		84B9F0001F14039500EDD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9F00C1F14110C00EDD520 /* ParksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParksViewController.h; sourceTree = "<group>"; };
+		84B9F00D1F14110C00EDD520 /* ParksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParksViewController.m; sourceTree = "<group>"; };
+		84B9F00F1F14194200EDD520 /* Parks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Parks.plist; sourceTree = "<group>"; };
+		84B9F0111F141DB300EDD520 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		84B9F0121F141DB400EDD520 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		84B9F0141F141DED00EDD520 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		84B9F0161F17E24200EDD520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF908E7BB189D86EB2EC9BF /* Pods-ParksOfKiev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParksOfKiev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParksOfKiev/Pods-ParksOfKiev.debug.xcconfig"; sourceTree = "<group>"; };
+		E385B55B683304822013A248 /* Pods_ParksOfKiev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParksOfKiev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98D835D495673CD033C8061 /* Pods-ParksOfKiev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParksOfKiev.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParksOfKiev/Pods-ParksOfKiev.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B9EFD31F14039500EDD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C9AF06EC4BEB97A02865EF /* Pods_ParksOfKiev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9EFEC1F14039500EDD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9EFF71F14039500EDD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DD742F09692C05396D3740 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF908E7BB189D86EB2EC9BF /* Pods-ParksOfKiev.debug.xcconfig */,
+				E98D835D495673CD033C8061 /* Pods-ParksOfKiev.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84B9EFCD1F14039500EDD520 = {
+			isa = PBXGroup;
+			children = (
+				84B9EFD81F14039500EDD520 /* ParksOfKiev */,
+				84B9EFF21F14039500EDD520 /* ParksOfKievTests */,
+				84B9EFFD1F14039500EDD520 /* ParksOfKievUITests */,
+				84B9EFD71F14039500EDD520 /* Products */,
+				F5782FB75DF026CD400FB7E3 /* Frameworks */,
+				00DD742F09692C05396D3740 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		84B9EFD71F14039500EDD520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B9EFD61F14039500EDD520 /* ParksOfKiev.app */,
+				84B9EFEF1F14039500EDD520 /* ParksOfKievTests.xctest */,
+				84B9EFFA1F14039500EDD520 /* ParksOfKievUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B9EFD81F14039500EDD520 /* ParksOfKiev */ = {
+			isa = PBXGroup;
+			children = (
+				84B9EFDC1F14039500EDD520 /* AppDelegate.h */,
+				84B9EFDD1F14039500EDD520 /* AppDelegate.m */,
+				84B9EFDF1F14039500EDD520 /* HomePageViewController.h */,
+				84B9EFE01F14039500EDD520 /* HomePageViewController.m */,
+				84B9F00C1F14110C00EDD520 /* ParksViewController.h */,
+				84B9F00D1F14110C00EDD520 /* ParksViewController.m */,
+				84B9F0111F141DB300EDD520 /* CardView.h */,
+				84B9F0121F141DB400EDD520 /* CardView.m */,
+				84B9F0141F141DED00EDD520 /* CardView.xib */,
+				84B9EFE21F14039500EDD520 /* Main.storyboard */,
+				84B9F00F1F14194200EDD520 /* Parks.plist */,
+				84B9EFE71F14039500EDD520 /* LaunchScreen.storyboard */,
+				84B9F0161F17E24200EDD520 /* Assets.xcassets */,
+				84B9EFEA1F14039500EDD520 /* Info.plist */,
+				84B9EFD91F14039500EDD520 /* Supporting Files */,
+			);
+			path = ParksOfKiev;
+			sourceTree = "<group>";
+		};
+		84B9EFD91F14039500EDD520 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B9EFDA1F14039500EDD520 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B9EFF21F14039500EDD520 /* ParksOfKievTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B9EFF31F14039500EDD520 /* ParksOfKievTests.m */,
+				84B9EFF51F14039500EDD520 /* Info.plist */,
+			);
+			path = ParksOfKievTests;
+			sourceTree = "<group>";
+		};
+		84B9EFFD1F14039500EDD520 /* ParksOfKievUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B9EFFE1F14039500EDD520 /* ParksOfKievUITests.m */,
+				84B9F0001F14039500EDD520 /* Info.plist */,
+			);
+			path = ParksOfKievUITests;
+			sourceTree = "<group>";
+		};
+		F5782FB75DF026CD400FB7E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E385B55B683304822013A248 /* Pods_ParksOfKiev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B9EFD51F14039500EDD520 /* ParksOfKiev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B9F0031F14039500EDD520 /* Build configuration list for PBXNativeTarget "ParksOfKiev" */;
+			buildPhases = (
+				512672B0CC4E0C6363D822FC /* [CP] Check Pods Manifest.lock */,
+				84B9EFD21F14039500EDD520 /* Sources */,
+				84B9EFD31F14039500EDD520 /* Frameworks */,
+				84B9EFD41F14039500EDD520 /* Resources */,
+				F590327BB015221904324FED /* [CP] Embed Pods Frameworks */,
+				2D097DE6299DA9ECFDB56100 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParksOfKiev;
+			productName = ParksOfKiev;
+			productReference = 84B9EFD61F14039500EDD520 /* ParksOfKiev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B9EFEE1F14039500EDD520 /* ParksOfKievTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B9F0061F14039500EDD520 /* Build configuration list for PBXNativeTarget "ParksOfKievTests" */;
+			buildPhases = (
+				84B9EFEB1F14039500EDD520 /* Sources */,
+				84B9EFEC1F14039500EDD520 /* Frameworks */,
+				84B9EFED1F14039500EDD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B9EFF11F14039500EDD520 /* PBXTargetDependency */,
+			);
+			name = ParksOfKievTests;
+			productName = ParksOfKievTests;
+			productReference = 84B9EFEF1F14039500EDD520 /* ParksOfKievTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B9EFF91F14039500EDD520 /* ParksOfKievUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B9F0091F14039500EDD520 /* Build configuration list for PBXNativeTarget "ParksOfKievUITests" */;
+			buildPhases = (
+				84B9EFF61F14039500EDD520 /* Sources */,
+				84B9EFF71F14039500EDD520 /* Frameworks */,
+				84B9EFF81F14039500EDD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B9EFFC1F14039500EDD520 /* PBXTargetDependency */,
+			);
+			name = ParksOfKievUITests;
+			productName = ParksOfKievUITests;
+			productReference = 84B9EFFA1F14039500EDD520 /* ParksOfKievUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B9EFCE1F14039500EDD520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Igor Karyi";
+				TargetAttributes = {
+					84B9EFD51F14039500EDD520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV23R78L97;
+						ProvisioningStyle = Automatic;
+					};
+					84B9EFEE1F14039500EDD520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV23R78L97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84B9EFD51F14039500EDD520;
+					};
+					84B9EFF91F14039500EDD520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV23R78L97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84B9EFD51F14039500EDD520;
+					};
+				};
+			};
+			buildConfigurationList = 84B9EFD11F14039500EDD520 /* Build configuration list for PBXProject "ParksOfKiev" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B9EFCD1F14039500EDD520;
+			productRefGroup = 84B9EFD71F14039500EDD520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B9EFD51F14039500EDD520 /* ParksOfKiev */,
+				84B9EFEE1F14039500EDD520 /* ParksOfKievTests */,
+				84B9EFF91F14039500EDD520 /* ParksOfKievUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B9EFD41F14039500EDD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9EFE91F14039500EDD520 /* LaunchScreen.storyboard in Resources */,
+				84B9F0151F141DED00EDD520 /* CardView.xib in Resources */,
+				84B9F0101F14194200EDD520 /* Parks.plist in Resources */,
+				84B9EFE41F14039500EDD520 /* Main.storyboard in Resources */,
+				84B9F0171F17E24200EDD520 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9EFED1F14039500EDD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9EFF81F14039500EDD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D097DE6299DA9ECFDB56100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParksOfKiev/Pods-ParksOfKiev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512672B0CC4E0C6363D822FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F590327BB015221904324FED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParksOfKiev/Pods-ParksOfKiev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B9EFD21F14039500EDD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9F00E1F14110C00EDD520 /* ParksViewController.m in Sources */,
+				84B9EFE11F14039500EDD520 /* HomePageViewController.m in Sources */,
+				84B9F0131F141DB400EDD520 /* CardView.m in Sources */,
+				84B9EFDE1F14039500EDD520 /* AppDelegate.m in Sources */,
+				84B9EFDB1F14039500EDD520 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9EFEB1F14039500EDD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9EFF41F14039500EDD520 /* ParksOfKievTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9EFF61F14039500EDD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9EFFF1F14039500EDD520 /* ParksOfKievUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B9EFF11F14039500EDD520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B9EFD51F14039500EDD520 /* ParksOfKiev */;
+			targetProxy = 84B9EFF01F14039500EDD520 /* PBXContainerItemProxy */;
+		};
+		84B9EFFC1F14039500EDD520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B9EFD51F14039500EDD520 /* ParksOfKiev */;
+			targetProxy = 84B9EFFB1F14039500EDD520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B9EFE21F14039500EDD520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B9EFE31F14039500EDD520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B9EFE71F14039500EDD520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B9EFE81F14039500EDD520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B9F0011F14039500EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B9F0021F14039500EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B9F0041F14039500EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF908E7BB189D86EB2EC9BF /* Pods-ParksOfKiev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = ParksOfKiev/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.ParksOfKiev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B9F0051F14039500EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98D835D495673CD033C8061 /* Pods-ParksOfKiev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = ParksOfKiev/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.ParksOfKiev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84B9F0071F14039500EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = ParksOfKievTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.ParksOfKievTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParksOfKiev.app/ParksOfKiev";
+			};
+			name = Debug;
+		};
+		84B9F0081F14039500EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = ParksOfKievTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.ParksOfKievTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParksOfKiev.app/ParksOfKiev";
+			};
+			name = Release;
+		};
+		84B9F00A1F14039500EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = ParksOfKievUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.ParksOfKievUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParksOfKiev;
+			};
+			name = Debug;
+		};
+		84B9F00B1F14039500EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = ParksOfKievUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.ParksOfKievUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParksOfKiev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B9EFD11F14039500EDD520 /* Build configuration list for PBXProject "ParksOfKiev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F0011F14039500EDD520 /* Debug */,
+				84B9F0021F14039500EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B9F0031F14039500EDD520 /* Build configuration list for PBXNativeTarget "ParksOfKiev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F0041F14039500EDD520 /* Debug */,
+				84B9F0051F14039500EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B9F0061F14039500EDD520 /* Build configuration list for PBXNativeTarget "ParksOfKievTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F0071F14039500EDD520 /* Debug */,
+				84B9F0081F14039500EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B9F0091F14039500EDD520 /* Build configuration list for PBXNativeTarget "ParksOfKievUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F00A1F14039500EDD520 /* Debug */,
+				84B9F00B1F14039500EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B9EFCE1F14039500EDD520 /* Project object */;
+}
